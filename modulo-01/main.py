@@ -1,4 +1,10 @@
-imposto = int(input("Informe um número: "))
+tax = int(input("Informe um número: "))
+nooll = True
 
-if imposto > 10:
-	print("Foi")
+while nooll:
+    if tax > 12:
+        print('Foi mano')
+    
+    nooll = False
+
+print('Fui não')
