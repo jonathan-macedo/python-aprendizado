@@ -11,3 +11,13 @@ print(livraria.items())  # vai retornar os valores e as chaves
 
 for key, value in livraria.items():
     print(f"A chave:{key} tem o valor {value}")
+
+
+estado = dict()
+brasil = list()
+
+for contador in range(0, 3):
+    estado["UF"] = input("Unidade Federativa: ")
+    estado["Sigla"] = input("Sigla do Estado: ")
+    brasil.append(estado)
+print(brasil)
