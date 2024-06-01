@@ -91,3 +91,18 @@ print(p1.preco)
 p2 = Produto("Calça", "R$12")
 p1.desconto(20)
 print(p2.preco)
+
+
+class Animal:
+    def __init__(self, nome):
+        self.nome = nome
+
+
+class Leao(Animal):
+    def __init__(self):
+        super().__init__()
+
+
+class Tartaruga(Animal):
+    def __init__(self):
+        super().__init__()
